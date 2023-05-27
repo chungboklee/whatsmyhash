@@ -2,5 +2,15 @@
 html {}
 
 body {
-    color: rgba(250,250,250);
+    background-color: rgba(250,250,250);
+}
+
+.hashrate {
+    border: 0px none; margin-top:-10rem; height: 70%; width: 100%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .hashrate {
+        border: 0px none; margin-top:-10rem; height: 100%; width: 100%;
+    }
 }
